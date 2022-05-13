@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>notes-js</title>
+
+		<link rel="shortcut icon" href="/public/assets/images/favicon.ico" />
+		<link rel="stylesheet" href="/public/assets/styles/bootstrap.min.css" />
+		<link rel="stylesheet" href="/public/assets/styles/main.css" />
+		<script src="https://kit.fontawesome.com/bdc539e5ff.js" crossorigin="anonymous"></script>
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+			<a class="navbar-brand" href="/">
+				<img
+					src="/public/assets/images/notes-js.svg"
+					width="30"
+					height="30"
+					class="d-inline-block align-top"
+					alt="timer-js logo"
+				/>
+				notes-js
+			</a>
+			<button
+				class="navbar-toggler"
+				type="button"
+				data-toggle="collapse"
+				data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent"
+				aria-expanded="false"
+				aria-label="Toggle navigation"
+			>
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="/">Notes</a>
+					</li>
+				</ul>
+				<a href="https://github.com/AClain/notes-js" target="_blank">Github</a>
+			</div>
+		</nav>
+
+		<main class="container h-100">
+			<div id="add-note-placeholder"><span>+</span></div>
+		</main>
+
+		<!-- JQuery for Bootstrap -->
+		<script src="/public/assets/scripts/jquery.min.js"></script>
+		<script src="/public/assets/scripts/bootstrap.min.js"></script>
+		<script src="/src/custom-elements.js" type="module" defer></script>
+		<script src="/src/index.js" type="module" defer></script>
+	</body>
+</html>
